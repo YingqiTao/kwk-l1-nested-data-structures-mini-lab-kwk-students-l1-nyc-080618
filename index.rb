@@ -19,12 +19,10 @@ def sandwich_request(ingredients, order)
     else
       decision = false
       index_two += 1
-    end
     if decision == true
       return true
     else
       return false
-    end
 end
 
 # example city_info hash
